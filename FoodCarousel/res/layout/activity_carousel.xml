@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.omen.foodcarousel.Carousel" >
+
+    <TextView
+		android:id="@+id/vegetable_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="25dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+        android:text="@string/vegetable_field" />
+
+     <TextView
+		android:id="@+id/protein_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/vegetable_field"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:textSize="20sp"
+        android:text="@string/protein_field" />
+     
+     <TextView
+		android:id="@+id/starch_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/protein_field"
+		android:layout_marginTop="10dp"
+    	android:textSize="20sp"
+        android:text="@string/starch_field" />
+          
+     <TextView
+		android:id="@+id/spice_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/starch_field"
+		android:layout_marginTop="10dp"
+		android:textSize="20sp"
+        android:text="@string/spice_field" />     
+    
+     <Button
+		android:id="@+id/carousel_draw_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_below="@+id/spice_field"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="30dp"
+        android:text="@string/carousel_draw_button" 
+		android:textSize="30sp"
+        android:onClick="drawIngredients"
+        />
+     
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Food Carousel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Carousel view strings -->
+
+    <string name="vegetable_field">Vegetable</string>
+    <string name="protein_field">Protein</string>
+    <string name="starch_field">Starch</string>
+    <string name="spice_field">Spice(s)</string>
+    
+    <string name="carousel_draw_button">I am hungry!</string>
+
+
+</resources>
